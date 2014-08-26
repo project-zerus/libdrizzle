@@ -41,11 +41,13 @@
  * @brief Drizzle Definitions
  */
 
-#include "config.h"
+#include "drizzle_config.h"
 #include "libdrizzle/common.h"
 
 #include <cerrno>
 #include <pthread.h>
+
+#include <openssl/err.h>
 
 /**
  * @addtogroup drizzle_static Static Drizzle Declarations
@@ -74,7 +76,7 @@ static const char *_verbose_name[DRIZZLE_VERBOSE_MAX]=
 static pthread_once_t ssl_startup_once= PTHREAD_ONCE_INIT;
 
 static void drizzle_library_deinit(void)
-{ 
+{
 #if defined(_WIN32)
   /* if it is MS windows, invoke WSACleanup() at the end*/
   WSACleanup();

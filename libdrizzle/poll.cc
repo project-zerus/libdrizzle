@@ -10,7 +10,7 @@
  *
  */
 
-#include "config.h"
+#include "drizzle_config.h"
 
 #include "libdrizzle/common.h"
 

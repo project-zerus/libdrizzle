@@ -42,7 +42,7 @@
  * @brief Connection Definitions
  */
 
-#include "config.h"
+#include "drizzle_config.h"
 #include "libdrizzle/common.h"
 
 #ifndef MSG_NOSIGNAL
