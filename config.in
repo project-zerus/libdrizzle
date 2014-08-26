@@ -1,0 +1,300 @@
+/* config.in.  Generated from configure.ac by autoheader.  */
+
+
+#pragma once
+
+/* _SYS_FEATURE_TESTS_H is Solaris, _FEATURES_H is GCC */
+#if defined( _SYS_FEATURE_TESTS_H) || defined(_FEATURES_H)
+# error "You should include config.h as your first include file"
+#endif
+
+
+
+/* the location of <cinttypes> */
+#undef CINTTYPES_H
+
+/* the location of <cstdint> */
+#undef CSTDINT_H
+
+/* Define to 1 to enable debugging code. */
+#undef DEBUG
+
+/* Another magical number */
+#undef EAI_SYSTEM
+
+/* machine is big-endian */
+#undef ENDIAN_BIG
+
+/* machine is little-endian */
+#undef ENDIAN_LITTLE
+
+/* Define to 1 if you have the <argp.h> header file. */
+#undef HAVE_ARGP_H
+
+/* Define to 1 if you have the <cxxabi.h> header file. */
+#undef HAVE_CXXABI_H
+
+/* Define to 1 if you have the <dlfcn.h> header file. */
+#undef HAVE_DLFCN_H
+
+/* Define to 1 if you have the <errno.h> header file. */
+#undef HAVE_ERRNO_H
+
+/* Define to 1 if you have the `fcntl' function. */
+#undef HAVE_FCNTL
+
+/* Define to 1 if you have the <fcntl.h> header file. */
+#undef HAVE_FCNTL_H
+
+/* define if the compiler supports GCC C++ ABI name demangling */
+#undef HAVE_GCC_ABI_DEMANGLE
+
+/* Define to 1 if you have the <inttypes.h> header file. */
+#undef HAVE_INTTYPES_H
+
+/* Define to 1 if the system has the type `in_port_t'. */
+#undef HAVE_IN_PORT_T
+
+/* Define to 1 if you have the <io.h> header file. */
+#undef HAVE_IO_H
+
+/* Define to 1 if MCHECK is found */
+#undef HAVE_MCHECK
+
+/* Define to 1 if you have the <memory.h> header file. */
+#undef HAVE_MEMORY_H
+
+/* Define to 1 if you have a MSG_DONTWAIT */
+#undef HAVE_MSG_DONTWAIT
+
+/* Define to 1 if you have a MSG_MORE */
+#undef HAVE_MSG_MORE
+
+/* Define to 1 if you have a MSG_NOSIGNAL */
+#undef HAVE_MSG_NOSIGNAL
+
+/* Define to 1 if you have the `on_exit' function. */
+#undef HAVE_ON_EXIT
+
+/* Define to 1 if you have the <openssl/ssl.h> header file. */
+#undef HAVE_OPENSSL_SSL_H
+
+/* Define to 1 if you have the `poll' function. */
+#undef HAVE_POLL
+
+/* Define to 1 if you have the <poll.h> header file. */
+#undef HAVE_POLL_H
+
+/* Define to 1 if you have the `ppoll' function. */
+#undef HAVE_PPOLL
+
+/* Define if you have POSIX threads libraries and header files. */
+#undef HAVE_PTHREAD
+
+/* Have PTHREAD_PRIO_INHERIT. */
+#undef HAVE_PTHREAD_PRIO_INHERIT
+
+/* Define to 1 if you have the <pwd.h> header file. */
+#undef HAVE_PWD_H
+
+/* Define to 1 if you have the <stdint.h> header file. */
+#undef HAVE_STDINT_H
+
+/* Define to 1 if you have the <stdlib.h> header file. */
+#undef HAVE_STDLIB_H
+
+/* Define to 1 if you have the <strings.h> header file. */
+#undef HAVE_STRINGS_H
+
+/* Define to 1 if you have the <string.h> header file. */
+#undef HAVE_STRING_H
+
+/* Define to 1 if you have the <sys/socket.h> header file. */
+#undef HAVE_SYS_SOCKET_H
+
+/* Define to 1 if you have the <sys/stat.h> header file. */
+#undef HAVE_SYS_STAT_H
+
+/* Define to 1 if you have the <sys/types.h> header file. */
+#undef HAVE_SYS_TYPES_H
+
+/* Define to 1 if you have the <unistd.h> header file. */
+#undef HAVE_UNISTD_H
+
+/* Define to 1 or 0, depending whether the compiler supports simple visibility
+   declarations. */
+#undef HAVE_VISIBILITY
+
+/* Define to 1 if you have the <windows.h> header file. */
+#undef HAVE_WINDOWS_H
+
+/* Define to 1 if you have the <winsock2.h> header file. */
+#undef HAVE_WINSOCK2_H
+
+/* Define to 1 if you have the <ws2tcpip.h> header file. */
+#undef HAVE_WS2TCPIP_H
+
+/* Define to 1 if ZLIB is available. */
+#undef HAVE_ZLIB
+
+/* Define to 1 if you have the </tmp/dummy1_zlib.h> header file. */
+#undef HAVE__TMP_DUMMY1_ZLIB_H
+
+/* Define to 1 if you have the </tmp/dummy3_zlib.h> header file. */
+#undef HAVE__TMP_DUMMY3_ZLIB_H
+
+/* CPU of Build System */
+#undef HOST_CPU
+
+/* OS of Build System */
+#undef HOST_OS
+
+/* Vendor of Build System */
+#undef HOST_VENDOR
+
+/* Define to the sub-directory in which libtool stores uninstalled libraries.
+   */
+#undef LT_OBJDIR
+
+/* Define to 1 to disable assert'ing code. */
+#undef NDEBUG
+
+/* Name of package */
+#undef PACKAGE
+
+/* Define to the address where bug reports for this package should be sent. */
+#undef PACKAGE_BUGREPORT
+
+/* Define to the full name of this package. */
+#undef PACKAGE_NAME
+
+/* Define to the full name and version of this package. */
+#undef PACKAGE_STRING
+
+/* Define to the one symbol short name of this package. */
+#undef PACKAGE_TARNAME
+
+/* Define to the home page for this package. */
+#undef PACKAGE_URL
+
+/* Define to the version of this package. */
+#undef PACKAGE_VERSION
+
+/* Define to necessary symbol if this constant uses a non-standard name on
+   your system. */
+#undef PTHREAD_CREATE_JOINABLE
+
+/* Define to 1 if you have the ANSI C header files. */
+#undef STDC_HEADERS
+
+/* CPU of Target System */
+#undef TARGET_CPU
+
+/* OS of Target System */
+#undef TARGET_OS
+
+/* Whether we are building for FreeBSD */
+#undef TARGET_OS_FREEBSD
+
+/* Whether we build for Linux */
+#undef TARGET_OS_LINUX
+
+/* Whether we build for OSX */
+#undef TARGET_OS_OSX
+
+/* Whether we are building for Solaris */
+#undef TARGET_OS_SOLARIS
+
+/* Whether we are building for Windows */
+#undef TARGET_OS_WINDOWS
+
+/* Vendor of Target System */
+#undef TARGET_VENDOR
+
+/* Enable extensions on AIX 3, Interix.  */
+#ifndef _ALL_SOURCE
+# undef _ALL_SOURCE
+#endif
+/* Enable GNU extensions on systems that have them.  */
+#ifndef _GNU_SOURCE
+# undef _GNU_SOURCE
+#endif
+/* Enable threading extensions on Solaris.  */
+#ifndef _POSIX_PTHREAD_SEMANTICS
+# undef _POSIX_PTHREAD_SEMANTICS
+#endif
+/* Enable extensions on HP NonStop.  */
+#ifndef _TANDEM_SOURCE
+# undef _TANDEM_SOURCE
+#endif
+/* Enable general extensions on Solaris.  */
+#ifndef __EXTENSIONS__
+# undef __EXTENSIONS__
+#endif
+
+
+/* Define if the code was built from VCS. */
+#undef VCS_CHECKOUT
+
+/* VCS system */
+#undef VCS_SYSTEM
+
+/* Version number of package */
+#undef VERSION
+
+/* machine is big-endian */
+#undef WORDS_BIGENDIAN
+
+/* Define to 1 if on MINIX. */
+#undef _MINIX
+
+/* Define to 2 if the system does not provide POSIX.1 features except with
+   this defined. */
+#undef _POSIX_1_SOURCE
+
+/* Define to 1 if you need to in order for `stat' and other things to work. */
+#undef _POSIX_SOURCE
+
+/* Workaround for bug in FreeBSD headers */
+#undef __APPLE_CC__
+
+/* Use STDC Limit Macros in C++ */
+#undef __STDC_LIMIT_MACROS
+
+/* Define to `unsigned int' if <sys/types.h> does not define. */
+#undef size_t
+
+/* Define to `int' if <sys/types.h> does not define. */
+#undef ssize_t
+
+
+#ifndef HAVE_SYS_SOCKET_H
+# define SHUT_RD SD_RECEIVE
+# define SHUT_WR SD_SEND
+# define SHUT_RDWR SD_BOTH
+#endif
+          
+
+
+
+/* This seems to be required for older compilers @note http://stackoverflow.com/questions/8132399/how-to-printf-uint64-t  */
+#ifndef __STDC_FORMAT_MACROS
+#  define __STDC_FORMAT_MACROS
+#endif
+ 
+#if defined(__cplusplus)
+#  include CINTTYPES_H
+#else
+#  include <inttypes.h>
+#endif
+
+#if !defined(HAVE_ULONG) && !defined(__USE_MISC)
+# define HAVE_ULONG 1
+typedef unsigned long int ulong;
+#endif
+
+#ifndef HAVE_MSG_DONTWAIT
+# define MSG_DONTWAIT 0
+#endif // HAVE_MSG_DONTWAIT
+
+
